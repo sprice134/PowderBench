@@ -1,0 +1,147 @@
+{
+  "models": {
+    "gemini": "gemini-3.1-flash-image-preview",
+    "openai": "gpt-image-1",
+    "qwen": "Qwen/Qwen-Image-Edit-2511"
+  },
+  "conditioning_order": [
+    "snapshot.png",
+    "instance.png",
+    "normals.png",
+    "ao.png",
+    "depth.png"
+  ],
+  "configuration_inputs": {
+    "1": [
+      "snapshot.png"
+    ],
+    "2": [
+      "snapshot.png",
+      "instance.png"
+    ],
+    "3": [
+      "snapshot.png",
+      "instance.png",
+      "normals.png"
+    ],
+    "4": [
+      "snapshot.png",
+      "instance.png",
+      "normals.png",
+      "ao.png"
+    ],
+    "5": [
+      "snapshot.png",
+      "instance.png",
+      "normals.png",
+      "ao.png",
+      "depth.png"
+    ]
+  },
+  "inference": {
+    "gemini": {
+      "response_modalities": [
+        "IMAGE"
+      ],
+      "aspect_ratio": "4:3",
+      "image_size": "1K",
+      "output_size": [
+        1024,
+        768
+      ]
+    },
+    "openai": {
+      "request_size": "1536x1024",
+      "output_size": [
+        1024,
+        768
+      ]
+    },
+    "qwen": {
+      "model": "Qwen/Qwen-Image-Edit-2511",
+      "num_inference_steps": 50,
+      "true_cfg_scale": 4.0,
+      "guidance_scale": 1.0,
+      "default_seed": 7,
+      "negative_prompt": " "
+    },
+    "depth_normalization_max": 20.0
+  },
+  "prompts": [
+    {
+      "configuration": 1,
+      "contrast": "Low",
+      "path": "PowderGen/translation/prompts/LowContrast1Image.txt"
+    },
+    {
+      "configuration": 1,
+      "contrast": "Medium",
+      "path": "PowderGen/translation/prompts/MediumContrast1Image.txt"
+    },
+    {
+      "configuration": 1,
+      "contrast": "High",
+      "path": "PowderGen/translation/prompts/HighContrast1Image.txt"
+    },
+    {
+      "configuration": 2,
+      "contrast": "Low",
+      "path": "PowderGen/translation/prompts/LowContrast2Image.txt"
+    },
+    {
+      "configuration": 2,
+      "contrast": "Medium",
+      "path": "PowderGen/translation/prompts/MediumContrast2Image.txt"
+    },
+    {
+      "configuration": 2,
+      "contrast": "High",
+      "path": "PowderGen/translation/prompts/HighContrast2Image.txt"
+    },
+    {
+      "configuration": 3,
+      "contrast": "Low",
+      "path": "PowderGen/translation/prompts/LowContrast3Image.txt"
+    },
+    {
+      "configuration": 3,
+      "contrast": "Medium",
+      "path": "PowderGen/translation/prompts/MediumContrast3Image.txt"
+    },
+    {
+      "configuration": 3,
+      "contrast": "High",
+      "path": "PowderGen/translation/prompts/HighContrast3Image.txt"
+    },
+    {
+      "configuration": 4,
+      "contrast": "Low",
+      "path": "PowderGen/translation/prompts/LowContrast4Image.txt"
+    },
+    {
+      "configuration": 4,
+      "contrast": "Medium",
+      "path": "PowderGen/translation/prompts/MediumContrast4Image.txt"
+    },
+    {
+      "configuration": 4,
+      "contrast": "High",
+      "path": "PowderGen/translation/prompts/HighContrast4Image.txt"
+    },
+    {
+      "configuration": 5,
+      "contrast": "Low",
+      "path": "PowderGen/translation/prompts/LowContrast5Image.txt"
+    },
+    {
+      "configuration": 5,
+      "contrast": "Medium",
+      "path": "PowderGen/translation/prompts/MediumContrast5Image.txt"
+    },
+    {
+      "configuration": 5,
+      "contrast": "High",
+      "path": "PowderGen/translation/prompts/HighContrast5Image.txt"
+    }
+  ]
+}

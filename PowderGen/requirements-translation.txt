@@ -1,0 +1,6 @@
+numpy
+Pillow
+opencv-python
+google-genai
+openai
+# Qwen requires a separate PyTorch/CUDA installation plus diffusers and transformers.

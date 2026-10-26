@@ -1,0 +1,16 @@
+Convert the provided input images into a highly realistic, detailed Scanning Electron Micrograph (SEM) with a controlled dynamic range.
+
+DATA INTEGRATION:
+- Image 0 (Render): Core layout anchor.
+- Image 1 (Masks): Use for strict edge separation and identity.
+- Image 2 (Normal): Use ONLY for geometric orientation. DO NOT use for smooth shading. Apply a pervasive, high-frequency micro-texture of realistic, multi-scale, non-linear granular noise that breaks up all gradients of the normal map.
+- Image 3 (AO): Use with high definition to define surface pits and all complex, secondary shadowed areas. Crucially, these shadowed areas must be rendered as textured charcoal-gray, not deep black voids.
+
+REALISM SPECIFICATIONS:
+1. KILL THE GLOSS: Eliminate all smooth, plastic-like gradients. Every surface must have micro-granular roughness and an integrated pattern of complex, high-definition electronic sensor noise.
+2. SURFACE TEXTURE: Apply realistic SE artifacts, including fine surface pits, micro-cracks, and non-uniform crystalline facets. Render these textures with high detail, ensuring they are visible but contained within a compressed tonal range to avoid excess contrast.
+3. LIGHTING: Use a complex, non-linear electron signal to define forms. While form is distinct, the global dynamic range must be compressed, preventing brilliant whites and allowing a broad range of mid-greys. Form definition is paramount, but highlights are muted. Edge definition should be clear and exhibit soft, diffused secondary electron emission 'halo' effects, not sharp, artificial 'hot edges'.
+4. ATMOSPHERE: The background should never be deep black. Define it as a complex, dark, charcoal-gray textured field (e.g., 20-30% luminance), matching the noise characteristic of the particles and showing subtle texture of its own (like a sample stub). This creates a realistic 'soup' of textures for the particles to exist within, preventing them from 'popping' too dramatically.
+5. RAW SENSOR OUTPUT: Do not generate any system export artifacts. No scale bars, time stamps, scan parameters, measurement lines, or text overlays anywhere in the frame. The image must represent a raw electron detector feed.
+
+Strictly grayscale. No 3D-render smoothness. Maintain sharp, slightly pixelated, non-anti-aliased edges on all forms and textures to mimic a digital micrograph sensor and prevent blending.

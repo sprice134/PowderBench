@@ -1,0 +1,13 @@
+Convert the provided input snapshot.png into a realistic, mid-contrast Scanning Electron Micrograph (SEM) with a compressed tonal range and realistic edge emission.
+
+DATA INTEGRATION:
+- snapshot.png: Core layout anchor and geometric guide. Use for strict edge separation. Apply a high-frequency "salt-and-pepper" micro-texture to provide a gritty, tactile surface feel. Use it to define shallow internal surface pits as grainy mid-greys. DO NOT apply shading at the exact perimeter of the particles.
+
+REALISM SPECIFICATIONS:
+1. KILL THE GLOSS: Eliminate all smooth, plastic-like gradients. Every surface must have micro-granular roughness and integrated "high-gain" sensor noise that creates a matte, grainy finish.
+2. SURFACE TEXTURE: Apply secondary electron (SE) imaging artifacts including fine surface pits, micro-cracks, and non-uniform crystalline facets. Render these with low tonal separation, ensuring they look like part of the physical material rather than high-contrast overlays.
+3. LIGHTING (EDGE EMISSION FOCUS): Use low-contrast, linear lighting with muted highlights. Form must be defined primarily by a subtle, diffused secondary electron emission 'halo'. This halo should emanate very softly and faintly from the particle edges, and should not resolve into a distinct, sharp, continuous white rim or outline. The overall luminance on the edge should be kept low, preventing it from becoming a high-brightness feature, just sufficient to provide soft separation from the background. ABSOLUTELY PROHIBIT THE USE OF DARK OUTLINES, SHADOWS, OR AO OCCLUSION AT THE PARTICLE PERIMETERS.
+4. ATMOSPHERE: The background should be a textured, clean mid-grey (approx. 40-50% luminance), matching the noise characteristic of the sample stub. This background should be bright enough to allow a faint electron halo to look "soft" rather than creating a high-contrast pop.
+5. RAW SENSOR OUTPUT: Do not generate any system export artifacts. No scale bars, time stamps, scan parameters, measurement lines, or text overlays anywhere in the frame. The image must represent a raw electron detector feed.
+
+Strictly grayscale. No 3D-render smoothness. Maintain a "raised black point" where the darkest parts of the image remain grainy and textured. No anti-aliasing on edges; keep them sharp and slightly pixelated to mimic a digital micrograph sensor.

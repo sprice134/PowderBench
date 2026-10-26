@@ -1,0 +1,16 @@
+Convert the provided input images into a gritty, high-realism Scanning Electron Micrograph (SEM). 
+
+DATA INTEGRATION:
+- Image 0 (Render): Core layout anchor.
+- Image 1 (Masks): Use for strict edge separation and identity.
+- Image 2 (Normal): Use ONLY for geometric orientation. DO NOT use for smooth shading. Apply a high-frequency "salt-and-pepper" micro-texture that breaks up the smooth gradients of the normal map.
+- Image 3 (AO): Use ONLY to define deep-shadow pits. Ensure shadows are grainy, not smooth.
+
+REALISM SPECIFICATIONS:
+1. KILL THE GLOSS: Eliminate all smooth, plastic-like gradients. Every surface must have micro-granular roughness and "high-gain" sensor noise.
+2. SURFACE TEXTURE: Apply secondary electron (SE) imaging artifacts including fine surface pits, micro-cracks, and non-uniform crystalline facets. 
+3. LIGHTING: Use high-contrast, non-linear lighting. Boundaries should exhibit sharp electron "edge glow" (secondary emission) that feels like a physical artifact, not a glow filter.
+4. ATMOSPHERE: The background should be deep black but with "electronic noise" (mild grain) consistent with high-magnification imaging.
+5. RAW SENSOR OUTPUT: Do not generate any system export artifacts. No scale bars, time stamps, scan parameters, measurement lines, or text overlays anywhere in the frame. The image must represent a raw electron detector feed.
+
+Strictly grayscale. No 3D-render smoothness. No anti-aliasing on edges; keep them sharp and slightly pixelated to mimic a digital micrograph sensor.
