@@ -6,7 +6,7 @@ PowderBench contains **537 complete synthetic scenes** across nine powders, **33
 
 ## Get the data
 
-**Data download: forthcoming.** The assembled dataset is under `PowderBench/` in the release workspace; the public download location will be added when the data are published. Cloning the code repository alone does not provide the dataset bytes. The `PowderGen/` code can be used to create new scenes with separately acquired particle STL inputs.
+The dataset is included under `PowderBench/`. A full clone includes the dataset bytes as well as PowderGen. The `PowderGen/` code can be used to create new scenes with separately acquired particle STL inputs.
 
 ## Dataset layout
 

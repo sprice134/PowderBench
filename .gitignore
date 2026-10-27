@@ -4,6 +4,3 @@ generated/
 __pycache__/
 *.pyc
 .DS_Store
-PowderBench/synthetic/
-PowderBench/real_sem/
-PowderBench/translation_audit/
