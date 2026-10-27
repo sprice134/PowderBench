@@ -1,0 +1,24 @@
+{
+    "time_per_step_seconds": {
+        "mesh_loading_and_physics_setup": 167.02546310424805,
+        "physics_simulation": 30.90467357635498,
+        "render_visible_masks": 12.835511445999146,
+        "render_snapshot": 6.134968042373657,
+        "render_normals": 11.332536935806274,
+        "render_depth": 10.790210247039795,
+        "render_ao": 11.746937274932861,
+        "render_amodal_masks": 9.489842176437378,
+        "export_3d_scene": 5.639383316040039
+    },
+    "storage_required_bytes": {
+        "visible_instance_map": 7798,
+        "snapshot": 669841,
+        "normals": 1682311,
+        "depth": 4671205,
+        "ao": 595102,
+        "amodal_masks": 10173,
+        "scene_obj": 472725
+    },
+    "total_storage_bytes": 8109155,
+    "total_time_seconds": 265.8995261192322
+}
