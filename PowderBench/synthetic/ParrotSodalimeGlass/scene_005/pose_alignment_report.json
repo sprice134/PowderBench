@@ -1,0 +1,435 @@
+{
+    "scene_dir": "/Users/sprice/Documents/GitHub/Task4/SyntheticPipelineGenerator/Attempt5/Dataset/ParrotSodalimeGlass/scene_005",
+    "camera_mode": "mid",
+    "num_objects_evaluated": 42,
+    "mean_amodal_iou": 0.9934002433870038,
+    "min_amodal_iou": 0.9056974459724951,
+    "mean_visible_mask_coverage_by_projection": 0.996078034299848,
+    "camera_pose_consistent": true,
+    "outputs": {
+        "overlay_image": "/Users/sprice/Documents/GitHub/Task4/SyntheticPipelineGenerator/Attempt5/Dataset/ParrotSodalimeGlass/scene_005/pose_alignment_overlay.png",
+        "report_json": "pose_alignment_report.json"
+    },
+    "per_object": [
+        {
+            "instance_id": 1,
+            "object_name": "Particle_0001",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/984.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 2,
+            "object_name": "Particle_0002",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1424.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 3,
+            "object_name": "Particle_0003",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1159.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 4,
+            "object_name": "Particle_0004",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/125.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 5,
+            "object_name": "Particle_0005",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1109.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 6,
+            "object_name": "Particle_0006",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/726.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 7,
+            "object_name": "Particle_0007",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1218.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 8,
+            "object_name": "Particle_0008",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/777.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 9,
+            "object_name": "Particle_0009",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/736.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 10,
+            "object_name": "Particle_0010",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1476.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 11,
+            "object_name": "Particle_0011",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1439.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 12,
+            "object_name": "Particle_0012",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/189.stl",
+            "amodal_iou": 0.9711433936159699,
+            "visible_pixel_count": 9818,
+            "visible_mask_coverage_by_projection": 0.9845182318191078,
+            "projected_pixel_count": 9979,
+            "amodal_pixel_count": 9967
+        },
+        {
+            "instance_id": 13,
+            "object_name": "Particle_0013",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1540.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 14,
+            "object_name": "Particle_0014",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/626.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 15,
+            "object_name": "Particle_0015",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/491.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 16,
+            "object_name": "Particle_0016",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/988.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 17,
+            "object_name": "Particle_0017",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1342.stl",
+            "amodal_iou": 0.9864703325364051,
+            "visible_pixel_count": 18389,
+            "visible_mask_coverage_by_projection": 0.9872750013595084,
+            "projected_pixel_count": 18205,
+            "amodal_pixel_count": 18354
+        },
+        {
+            "instance_id": 18,
+            "object_name": "Particle_0018",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1025.stl",
+            "amodal_iou": 0.9855100996180651,
+            "visible_pixel_count": 25339,
+            "visible_mask_coverage_by_projection": 0.9872923161924306,
+            "projected_pixel_count": 25156,
+            "amodal_pixel_count": 25270
+        },
+        {
+            "instance_id": 19,
+            "object_name": "Particle_0019",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/527.stl",
+            "amodal_iou": 0.9878974224780845,
+            "visible_pixel_count": 15133,
+            "visible_mask_coverage_by_projection": 0.9916077446639794,
+            "projected_pixel_count": 15149,
+            "amodal_pixel_count": 15238
+        },
+        {
+            "instance_id": 20,
+            "object_name": "Particle_0020",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/400.stl",
+            "amodal_iou": 0.9871051533002458,
+            "visible_pixel_count": 21566,
+            "visible_mask_coverage_by_projection": 0.9855327830844849,
+            "projected_pixel_count": 21341,
+            "amodal_pixel_count": 21499
+        },
+        {
+            "instance_id": 21,
+            "object_name": "Particle_0021",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/567.stl",
+            "amodal_iou": 0.9056974459724951,
+            "visible_pixel_count": 435,
+            "visible_mask_coverage_by_projection": 0.9816091954022989,
+            "projected_pixel_count": 473,
+            "amodal_pixel_count": 497
+        },
+        {
+            "instance_id": 22,
+            "object_name": "Particle_0022",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1463.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 23,
+            "object_name": "Particle_0023",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1042.stl",
+            "amodal_iou": 0.9810606060606061,
+            "visible_pixel_count": 5536,
+            "visible_mask_coverage_by_projection": 0.9808526011560693,
+            "projected_pixel_count": 5460,
+            "amodal_pixel_count": 5523
+        },
+        {
+            "instance_id": 24,
+            "object_name": "Particle_0024",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/886.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 25,
+            "object_name": "Particle_0025",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/527.stl",
+            "amodal_iou": 0.9870553513177652,
+            "visible_pixel_count": 19283,
+            "visible_mask_coverage_by_projection": 0.9876056630192398,
+            "projected_pixel_count": 19136,
+            "amodal_pixel_count": 19240
+        },
+        {
+            "instance_id": 26,
+            "object_name": "Particle_0026",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/614.stl",
+            "amodal_iou": 0.9877740303541316,
+            "visible_pixel_count": 16604,
+            "visible_mask_coverage_by_projection": 0.9856058781016622,
+            "projected_pixel_count": 16440,
+            "amodal_pixel_count": 16565
+        },
+        {
+            "instance_id": 27,
+            "object_name": "Particle_0027",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1015.stl",
+            "amodal_iou": 0.9842582710779082,
+            "visible_pixel_count": 7323,
+            "visible_mask_coverage_by_projection": 0.9974054349310392,
+            "projected_pixel_count": 7420,
+            "amodal_pixel_count": 7454
+        },
+        {
+            "instance_id": 28,
+            "object_name": "Particle_0028",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/867.stl",
+            "amodal_iou": 0.9858841527014811,
+            "visible_pixel_count": 14226,
+            "visible_mask_coverage_by_projection": 0.9934626739772248,
+            "projected_pixel_count": 14215,
+            "amodal_pixel_count": 14344
+        },
+        {
+            "instance_id": 29,
+            "object_name": "Particle_0029",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/135.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 30,
+            "object_name": "Particle_0030",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/467.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 31,
+            "object_name": "Particle_0031",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/876.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 32,
+            "object_name": "Particle_0032",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1497.stl",
+            "amodal_iou": 0.9879744456971064,
+            "visible_pixel_count": 15985,
+            "visible_mask_coverage_by_projection": 0.986987801063497,
+            "projected_pixel_count": 15801,
+            "amodal_pixel_count": 15939
+        },
+        {
+            "instance_id": 33,
+            "object_name": "Particle_0033",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1396.stl",
+            "amodal_iou": 0.9849795175238962,
+            "visible_pixel_count": 17544,
+            "visible_mask_coverage_by_projection": 0.9855221158230734,
+            "projected_pixel_count": 17367,
+            "amodal_pixel_count": 17521
+        },
+        {
+            "instance_id": 34,
+            "object_name": "Particle_0034",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/100.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 35,
+            "object_name": "Particle_0035",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/362.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 36,
+            "object_name": "Particle_0036",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/556.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 37,
+            "object_name": "Particle_0037",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/671.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 38,
+            "object_name": "Particle_0038",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1239.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 39,
+            "object_name": "Particle_0039",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/82.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 40,
+            "object_name": "Particle_0040",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/952.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 41,
+            "object_name": "Particle_0041",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/1068.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        },
+        {
+            "instance_id": 42,
+            "object_name": "Particle_0042",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/ParrotSodalimeGlass/261.stl",
+            "amodal_iou": 1.0,
+            "visible_pixel_count": 0,
+            "visible_mask_coverage_by_projection": 1.0,
+            "projected_pixel_count": 0,
+            "amodal_pixel_count": 0
+        }
+    ]
+}
