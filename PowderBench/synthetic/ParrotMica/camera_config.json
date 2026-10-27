@@ -1,0 +1,52 @@
+{
+    "camera_type": "ORTHO",
+    "camera_location_mode": "per_scene_central_particle_zoom_regimes",
+    "camera_base_location": [
+        0.0,
+        0.0,
+        20.0
+    ],
+    "camera_rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "camera_base_ortho_scale": 40.0,
+    "camera_sampling_modes": {
+        "close": {
+            "weight": 0.3,
+            "zoom_factor_range": [
+                0.15,
+                0.35
+            ],
+            "min_visible_particles": 2
+        },
+        "mid": {
+            "weight": 0.4,
+            "zoom_factor_range": [
+                0.35,
+                0.7
+            ],
+            "min_visible_particles": 6
+        },
+        "wide": {
+            "weight": 0.3,
+            "zoom_factor_range": [
+                0.7,
+                1.0
+            ],
+            "min_visible_particles": 12
+        }
+    },
+    "camera_center_jitter_fraction": 0.25,
+    "image_resolution": [
+        1024,
+        768
+    ],
+    "min_scene_visible_particles": 2,
+    "max_camera_sampling_attempts": 8,
+    "dynamic_camera_zooming": true,
+    "voxel_remesh_size": 0.04,
+    "voxel_smoothing": 0.03,
+    "voxel_smoothing_iterations": 4
+}
