@@ -1,0 +1,88 @@
+{
+    "visible_instance_map": "visible_instances.npz",
+    "amodal_masks": "amodal_masks.npz",
+    "scene_obj": "assembled_scene.obj",
+    "num_particles": 10,
+    "particles": [
+        {
+            "instance_id": 1,
+            "object_name": "Particle_0001",
+            "obj_name": "Particle_0001",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_01967.stl",
+            "visible_instance_value": 1,
+            "amodal_stack_index": 0
+        },
+        {
+            "instance_id": 2,
+            "object_name": "Particle_0002",
+            "obj_name": "Particle_0002",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_01451.stl",
+            "visible_instance_value": 2,
+            "amodal_stack_index": 1
+        },
+        {
+            "instance_id": 3,
+            "object_name": "Particle_0003",
+            "obj_name": "Particle_0003",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_00534.stl",
+            "visible_instance_value": 3,
+            "amodal_stack_index": 2
+        },
+        {
+            "instance_id": 4,
+            "object_name": "Particle_0004",
+            "obj_name": "Particle_0004",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_01156.stl",
+            "visible_instance_value": 4,
+            "amodal_stack_index": 3
+        },
+        {
+            "instance_id": 5,
+            "object_name": "Particle_0005",
+            "obj_name": "Particle_0005",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_01967.stl",
+            "visible_instance_value": 5,
+            "amodal_stack_index": 4
+        },
+        {
+            "instance_id": 6,
+            "object_name": "Particle_0006",
+            "obj_name": "Particle_0006",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_02598.stl",
+            "visible_instance_value": 6,
+            "amodal_stack_index": 5
+        },
+        {
+            "instance_id": 7,
+            "object_name": "Particle_0007",
+            "obj_name": "Particle_0007",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_03207.stl",
+            "visible_instance_value": 7,
+            "amodal_stack_index": 6
+        },
+        {
+            "instance_id": 8,
+            "object_name": "Particle_0008",
+            "obj_name": "Particle_0008",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_01633.stl",
+            "visible_instance_value": 8,
+            "amodal_stack_index": 7
+        },
+        {
+            "instance_id": 9,
+            "object_name": "Particle_0009",
+            "obj_name": "Particle_0009",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_01464.stl",
+            "visible_instance_value": 9,
+            "amodal_stack_index": 8
+        },
+        {
+            "instance_id": 10,
+            "object_name": "Particle_0010",
+            "obj_name": "Particle_0010",
+            "source_stl": "../../../SAM3D-Powder/ProcessedPowder/SandAtlasOttawa_7.3micron_30mesh/particle_01090.stl",
+            "visible_instance_value": 10,
+            "amodal_stack_index": 9
+        }
+    ]
+}
